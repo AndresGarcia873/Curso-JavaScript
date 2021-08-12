@@ -37,7 +37,7 @@ const funcionExpresada = function() {
     console.log("Esto es una función expresada.");
 }
 
-// funcionExpresada();
+funcionExpresada();
 
 /* ------------------------------ */
 
