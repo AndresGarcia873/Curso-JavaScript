@@ -41,6 +41,11 @@ palindromo('Salas');
 
 // 4.
 
-const eliminarCaracteres = (texto = "", patron = "") => (!texto) ? console.warn("No ingresaste un texto") : (!patron) ? console.warn('No ingresaste un patron de caracteres') : console.info(texto.replace(new RegExp(patron, "ig"), ''));
+const eliminarCaracteres = (texto = "", patron = "") =>
+    (!texto) ?
+    console.warn("No ingresaste un texto") :
+    (!patron) ?
+    console.warn('No ingresaste un patron de caracteres') :
+    console.info(texto.replace(new RegExp(patron, "ig"), ''));
 
 eliminarCaracteres('xyz1 xYz2 Xyz3 xyz4 y xyZ5', 'xyz');
