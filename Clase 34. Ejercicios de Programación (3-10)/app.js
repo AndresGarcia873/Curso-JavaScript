@@ -1,4 +1,4 @@
-// Ejercicios de Programación (2-10)
+// Ejercicios de Programación (3-10)
 
 // 1.
 
